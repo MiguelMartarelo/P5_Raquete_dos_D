@@ -84,6 +84,12 @@ function verificaColisaoRaquete(){
       yBolinha - raio < yRaquete + raqueteAltura && 
       yBolinha + raio > yRaquete){
     velocidadeXBolinha *= -1;
+}
+
+function movimentaBolinha(){
+  xBolinha += velocidadeXBolinha;
+  yBolinha += velocidadeYBolinha;
+}
   }
 }
 
